@@ -47,12 +47,11 @@ body {
 
 #social {
 	padding-top: 250px;
-	background: ;
 	text-align: center;
 }
 
 #social a {
-	margin: 0 50px;
+	margin: 15px;
 	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
