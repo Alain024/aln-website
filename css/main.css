@@ -1,0 +1,70 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+		background: #000000;
+}
+
+.intro {
+	  height: 100vh;
+	  padding: 100px 0;
+	  text-align: center;
+	  color: #FFF;
+	  background: url(../img/intro-bg.jpg)no-repeat bottom center scroll;
+	  background-color: #000;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  background-size: cover;
+	  -o-background-size: cover;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content:center;
+	  align-items:center;
+}
+
+.intro h1 {
+	  text-transform: uppercase;
+	  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 4em;
+	  font-weight: 700;
+	  letter-spacing: 1px;
+}
+
+#aboutme {
+	
+	color: white;
+	font-family: 'Open Sans';
+	padding-top: 250px;
+}
+
+#aboutme img {
+	height: 200px;
+	width: 200px;
+	
+}
+
+#social {
+	padding-top: 250px;
+	background: ;
+	text-align: center;
+}
+
+#social a {
+	margin: 0 50px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#social a:hover {
+	opacity: .7;
+	text-decoration: none;
+}
+
+
+
+
+
+
