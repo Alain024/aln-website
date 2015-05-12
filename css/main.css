@@ -48,6 +48,8 @@ body {
 #social {
 	padding-top: 250px;
 	text-align: center;
+	background: rgba(26, 27, 26, 0.84);
+  	color: white;
 }
 
 #social a {
