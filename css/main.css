@@ -7,12 +7,13 @@ body {
 		background: #000000;
 }
 
+
 .intro {
 	  height: 100vh;
 	  padding: 100px 0;
 	  text-align: center;
 	  color: #FFF;
-	  background: url(../img/intro-bg.jpg)no-repeat bottom center scroll;
+	  background: url(../img/bg.jpg)no-repeat bottom center scroll;
 	  background-color: #000;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -27,33 +28,49 @@ body {
 .intro h1 {
 	  text-transform: uppercase;
 	  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	  font-size: 4em;
+	  font-size: 3em;
 	  font-weight: 700;
 	  letter-spacing: 1px;
+	  color: #000;
+}
+
+.intro h2 { 
+  text-shadow: 1px 2px 1px #000;
+}
+
+h2 {
+	text-align: center;
+	color:white;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #aboutme {
-	
 	color: white;
 	font-family: 'Open Sans';
-	padding-top: 250px;
+	padding-top: 150px;
+	height: 700px;
 }
 
 #aboutme img {
-	height: 200px;
-	width: 200px;
-	
+	width: 150px;	
+}
+
+#aboutme p {
+	width: 70%;
+	text-align: center;
+	margin: 25px auto;
 }
 
 #social {
+	border-top: 3px solid #000000;
 	padding-top: 250px;
 	text-align: center;
-	background: rgba(26, 27, 26, 0.84);
+	background: rgba(25, 26, 25, 0.84);
   	color: white;
 }
 
 #social a {
-	margin: 15px;
+	margin: 20px;
 	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -64,8 +81,18 @@ body {
 	text-decoration: none;
 }
 
+em {
+  display: block;
+  text-align: center;
+  margin: 0 auto 50px;
+  width: 40px;
+  border: 2px solid #F5D118;
+}
 
+footer {
+	margin: 20px;
+	color: white;
 
-
+}
 
 
